@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #742828;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+img{
+    height: 70px;
+}
+
+#content{
+    width: 960px;
+    height:800px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    height: 50px;
+    background-color: #909090;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav div{
+    color: #dbd1d1;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div:hover{
+    cursor: pointer;
+    border-right: 1px solid #dbd1d1;
+    border-left: 1px solid #dbd1d1;
+}
+
+.head{
+    margin-top: 10px;
+    width: 960px;
+    height: 300px;
+    background-color: #87a984;
+}
+
+.img{
+    display:flex;
+    justify-content: flex-start;
+}
+
+img[src="/paper-plane-white.png"]{
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.img div{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+p{
+    color: #ffffff;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom{
+    width: 960px;
+    height: 700px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left{
+    width: 300px;
+    background-color: #96afac;
+}
+
+.lefttext{
+    padding: 40px 60px 0px 30px;
+    color: #ffffff;
+}
+
+.lefttext div{
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.lefttext a:hover{
+    color: #586c73;
+    cursor: pointer;
+}
+
+.right{
+    width: 660px;
+    background-color: #dbd8c5;
+}
+
+.righttext{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.righttext p {
+    color: #000000;
+}
+
+.righttext .bold{
+    color: #586c73;
+    margin-bottom: 40px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+}
+
+.logo img{
+    width: 600px;
+    height: auto;
+}
+
+img[src="/welcome.png"]{
+    margin-bottom: 15px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+}
